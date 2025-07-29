@@ -121,7 +121,9 @@
     </header>
     <div class="welc_plyBtn">
         <h1>Welcome to Settlers of Catan!</h1>
-        <button id="playbtn">Play</button>
+        <a title="playbtnLink" href="play.html">
+            <button id="playbtn">Play</button>
+        </a>
         <div>
             <p>We are thrilled to have you play our copy of the Settlers of Catan game that is serving as a class project. The idea behind this project is to learn the skill of project analytics and ways to collaborate in a software development environment.</p>
             <p>This website is the result of what we learn in class and the fruit of our collaboration. The vision is not to make a perfect game but to apply what we learn in our class.</p>
@@ -144,7 +146,7 @@
     function play(){
         alert("now playing")
     }
-    playbtnClicked = document.getElementById('playbtn').onclick = play
-    playLinkClicked = document.getElementById('playLink').onclick = play
+    //playbtnClicked = document.getElementById('playbtn').onclick = play
+    //playLinkClicked = document.getElementById('playLink').onclick = play
 </script>
 </html>
